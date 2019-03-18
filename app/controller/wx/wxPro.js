@@ -1,6 +1,6 @@
 const {Controller} = require('egg');
 const crypto = require('crypto');
-const xml2js = require('xml2js').parseString;
+const xml2js = require('xml2js');
 const axios = require('axios');
 const appId = 'wxd7ae9a1699887a73';
 const token = 'yoofun1314';
@@ -44,12 +44,24 @@ class TestWx extends Controller {
       data += chunk;
     });
     ctx.req.on('end',function() {
-      xml2js(data, {explicitArray: false}, (err, json) => {
+      xml2js.parseString(data, {explicitArray: false}, (err, json) => {
         console.log(json);//这里的json便是xml转为json的内容
-        ctx.body = 'success';
+        const {Content, ToUserName, FromUserName, MsgType} = json.xml;
+        const data = {
+          xml: {
+            ToUserName,
+            FromUserName,
+            CreateTime: parseInt(new Date().getTime() / 1000),
+            MsgType,
+            Content: Content + '(测试)',
+          }
+        };
+        const builder = new xml2js.Builder();
+        ctx.body = builder.buildObject(data);
       });
 
     });
+
   }
 
 }
