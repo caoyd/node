@@ -30,5 +30,7 @@ module.exports = app => {
   router.get('/volvo/seo', controller.h5.volvo.seo); // 助力抽奖
 
 
+  router.get('/wx/getSecrentToken', controller.wx.wxPro.getSecrentToken);
+  router.get('/wx/test', controller.wx.wxPro.test1);
 
 };

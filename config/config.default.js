@@ -70,7 +70,7 @@ module.exports = appInfo => {
     // },
     cluster: {
       listen: {
-        port: 5000,
+        port: 80,
         // hostname: '114.55.1.106',
         // path: '/var/run/egg.sock',
       }
