@@ -1,0 +1,33 @@
+{
+  "name": "cloud-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "lint": "./node_modules/.bin/eslint --fix app",
+    "test": "egg-bin test",
+    "start": "egg-scripts start --worker=1",
+    "stop": "egg-scripts stop"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-stream-ready": "^1.0.1",
+    "axios": "^0.18.0",
+    "connect-multiparty": "^2.2.0",
+    "egg": "^2.0.0",
+    "egg-bin": "^4.3.7",
+    "egg-cors": "^2.0.0",
+    "egg-scripts": "^2.5.0",
+    "egg-sequelize": "^3.1.0",
+    "egg-view-nunjucks": "^2.1.4",
+    "json-bigint": "^0.2.3",
+    "md5": "^2.2.1",
+    "mime": "^2.3.1",
+    "mysql2": "^1.5.3",
+    "request": "^2.83.0",
+    "uuid": "^3.3.2",
+    "ws": "^5.0.0"
+  }
+}

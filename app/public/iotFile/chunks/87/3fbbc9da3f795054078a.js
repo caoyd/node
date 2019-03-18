@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[87],{152:function(o,w){o.exports={card:"card27y1-_",row:"row3j4oZC",label:"labelL5j72W"}}}]);

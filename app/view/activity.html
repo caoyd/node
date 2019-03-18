@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <title>商家后台</title>
+  <script>
+    window.CFG = {
+      token: 'token',
+      publicPath: '/public/activity/',
+      api: {
+        user: {
+          logout: '/admin/logout'
+        },
+        combo: {
+          goods: {
+            list: '/admin/combo/goods/getCombo',
+            delete: '/admin/combo/goods/deleteCombo',
+            save: '/admin/combo/goods/saveCombo',
+            update: '/admin/combo/goods/update',
+            synchronization: '/admin/combo/goods/synchronization',
+          },
+          file: {
+            upload: '/admin/combo/upload/upload'
+          },
+          resource: {
+            list: '/admin/resource/get',
+            save: '/admin/resource/save'
+          }
+        },
+        goods: {
+          save: '/admin/base/goods/save',
+          del: '/admin/base/goods/delete',
+          list: '/admin/base/goods/list',
+          synchronization: '/admin/base/synchronizationTaobaoData',
+        },
+        selector: {
+          getItemsList: '/admin/top/getOnsaleList'
+        },
+        route: {
+          get: '/admin/route/get'
+        },
+        award: {
+          save: '/admin/award/save',
+          list: '/admin/award/list',
+          del: '/admin/award/delete',
+        },
+        classification: {
+          save: '/admin/category/save',
+          del: '/admin/category/delete',
+          list: '/admin/category/list'
+        }
+      },
+      company: {{company | safe}},
+      user: {{user | safe}},
+      activityId: '{{activityId}}',
+      path: {{path|safe}}
+    }
+  </script>
+  <link href="../public/activity/index.min.css" rel="stylesheet"></head>
+<body>
+<div id="root"></div>
+<script type="text/javascript" src="../public/activity/index.min.js"></script></body>
+</html>

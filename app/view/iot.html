@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <title>管理界面</title>
+<link href="../public/iotFile/index.min.css" rel="stylesheet"></head>
+<body>
+  <div id="root"></div>
+  <script>
+
+    var IP = 'https://yoofun.ews.m.jaeapp.com';
+    // var IP = 'http://192.168.1.6:5000';
+    // var IP = 'http://192.168.199.197:5004';
+
+    window.CFG = {
+      deviceType: '{{deviceType}}',
+      __publicPath__: '/public/iotFile/',
+      // api接口
+      api: {
+        signOut: IP + '/infoRelease/logout',
+        shop: {
+          getList: IP + '/iot/shop/getList',  // GET
+          getAllList: 'mock.shopAll',  // GET
+          addShop: IP + '/iot/shop/create',  // POST
+          updateShop: IP + '/iot/shop/update',  // POST
+          deleteShop: IP + '/iot/shop/remove',  // POST
+        },
+        goods: {
+          getList: IP + '/iot/goods/getList',  // GET
+          create: IP + '/iot/goods/create',  // POST //mock.bool
+          updateGoods: IP + '/iot/goods/update',  // POST
+          getClassList: 'mock.classes',// Get
+          addClasses: 'mock.bool', // POST
+          addBlueShelfGoods: IP + '' ,//POST
+          // getList: 'mock.goods',  // GET
+          // create: 'mock.bool',  // POST //mock.bool
+          // updateMember: 'mock.bool',  // POST
+          // getClassList: 'mock.classes',// Get
+          // addClasses: 'mock.bool', // POST
+          // addBlueShelfGoods: IP + '' ,//POST
+
+        },
+        details: {
+          bluetoothShelf: {
+            getInfo: IP + '/iot/app/getInfo', // IP + '/iot/app/getInfo'
+            getClassList: IP + '/iot/class/getList',
+            createClass: IP + '/iot/class/create',
+            updateClass: IP + '/iot/class/update',
+            removeClass: IP + '/iot/class/remove',
+
+            getGoodsList: IP + '/iot/appGoods/getList',
+            createGoods: IP + '/iot/appGoods/create',
+
+            updateGoods: IP + '/iot/appGoods/update',
+            removeGoods: IP + '/iot/appGoods/remove',
+
+            getStatsList: IP + '/iot/backFlow/getActionList',
+          },
+          infoPublish: {
+            getInfoList: IP + '/iot/resource/getList',
+            addInfo: IP + '/iot/resource/create',
+            getStatsList: IP + '/iot/backFlow/getActionList',
+          },
+          faceTesting: {
+            getMemberList: IP + '/iot/face/getList',
+            addMember: IP + '/iot/face/createList',
+            updateMember: IP + '/iot/face/update',
+            deleteMember: IP + '/iot/face/remove'
+          },
+          skinList: {
+            getStatsList: IP + '/iot/backFlow/getActionList',
+          }
+        },
+        device: {
+          getDeviceList:  IP + '/iot/app/list',// mock.getDeviceList   //http://192.168.199.197:7001/iot/app/list
+          updateDevice:  IP + '/iot/app/update',// mock.getDeviceList   //http://192.168.199.197:7001/iot/app/update',
+          blueShelf: {
+            getList: 'mock.getBlueShelfList',   // GET
+            addDevice: 'mock.bool',  // POST
+            updateDevice:  IP + '/iot/app/update',  // PUT ///iot/app/update
+            removeDevice: IP + '/infoRelease/device',  // DELETE
+            getDetail: IP + '/infoRelease/getDetail', // GET
+          },
+          infoPublish: {
+            getList: 'mock.deviceInfoPublishGetList',   // GET
+            addDevice: IP + '/infoRelease/device',  // POST
+            updateDevice: IP + '/infoRelease/device',  // PUT
+            removeDevice: IP + '/infoRelease/device',  // DELETE
+            getDetail: IP + '/infoRelease/getDetail', // GET
+          },
+        },
+        skin: {
+          getSkinList: 'mock.getSkinList',   // GET
+          addInfo:  'mock.bool',  // POST
+          // updateDevice: IP + '/infoRelease/device/:id',  // PUT
+          // removeDevice: IP + '/infoRelease/device/:id',  // DELETE
+        },
+        stats: {
+          getStatsList: IP + '/iot/backFlow/getActionList',
+          getFaceStat: IP + '/iot/backFlow/getActionList'
+        }
+      }
+    };
+  </script>
+  <!--<script src="./mock.min.js"></script>-->
+<script type="text/javascript" src="../public/iotFile/index.min.js"></script></body>
+</html>

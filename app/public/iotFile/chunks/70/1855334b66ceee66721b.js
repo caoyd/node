@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[70],{123:function(t,a){t.exports={row:"row1sBD_x",label:"labeldZlofX",title:"title3rTIzR",text:"text3HfEf6",pic:"pic1mJpPI",classCard:"classCardOfaAlj",addBtn:"addBtn2GgknB"}}}]);
