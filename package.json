@@ -15,6 +15,7 @@
   "dependencies": {
     "await-stream-ready": "^1.0.1",
     "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "connect-multiparty": "^2.2.0",
     "egg": "^2.0.0",
     "egg-bin": "^4.3.7",
@@ -28,6 +29,7 @@
     "mysql2": "^1.5.3",
     "request": "^2.83.0",
     "uuid": "^3.3.2",
-    "ws": "^5.0.0"
+    "ws": "^5.0.0",
+    "xml2js": "^0.4.19"
   }
 }

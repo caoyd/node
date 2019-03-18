@@ -1,5 +1,5 @@
 module.exports = app => {
-  const {router, controller} = app;
+  const {router, controller, middlewares: {xmlparse}} = app;
   // router.get('/spirit/info', controller.h5.spirit.getInfo);
   // router.get('/spirit/lottery', controller.h5.spirit.lottery);
   // router.get('/spirit/recall/info', controller.h5.spirit.recall);
@@ -32,5 +32,6 @@ module.exports = app => {
 
   router.get('/wx/getSecrentToken', controller.wx.wxPro.getSecrentToken);
   router.get('/wx/test', controller.wx.wxPro.test1);
+  router.post('/wx/test', xmlparse(), controller.wx.wxPro.test2);
 
 };
