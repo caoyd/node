@@ -39,7 +39,7 @@ class TestWx extends Controller {
   async test2() {
     const {ctx} = this;
     let data = '';
-    ctx.set('Content-Type', 'text/xml');
+    ctx.set('Content-Type', 'application/xml');
     ctx.req.setEncoding('utf8');
     ctx.req.on('data',function(chunk) {
       data += chunk;
