@@ -1,0 +1,30 @@
+2019-03-18 20:45:54,465 INFO 37125 [Timer] /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 11645538ms at 2019-03-19 00:00:00.003
+2019-03-18 20:45:54,466 INFO 37125 [Timer] /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 11646535ms at 2019-03-19 00:00:01.001
+2019-03-18 20:45:54,466 INFO 37125 [Timer] /Users/wangyi/node/yoo/wx/app/schedule/delete_pic.js next time will execute after 11645534ms at 2019-03-19 00:00:00.000
+2019-03-18 20:45:53,790 INFO 37126 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-18 20:45:53,790 INFO 37126 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-18 20:45:53,790 INFO 37126 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/app/schedule/delete_pic.js
+2019-03-18 20:48:06,788 INFO 37146 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-18 20:48:06,788 INFO 37146 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-18 20:48:06,788 INFO 37146 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/app/schedule/delete_pic.js
+2019-03-18 20:48:07,497 INFO 37145 [Timer] /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 11512505ms at 2019-03-19 00:00:00.002
+2019-03-18 20:48:07,497 INFO 37145 [Timer] /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 11513503ms at 2019-03-19 00:00:01.000
+2019-03-18 20:48:07,497 INFO 37145 [Timer] /Users/wangyi/node/yoo/wx/app/schedule/delete_pic.js next time will execute after 11512503ms at 2019-03-19 00:00:00.000
+2019-03-18 20:48:59,200 INFO 37156 [Timer] /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 11460802ms at 2019-03-19 00:00:00.002
+2019-03-18 20:48:59,201 INFO 37156 [Timer] /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 11461800ms at 2019-03-19 00:00:01.000
+2019-03-18 20:48:59,201 INFO 37156 [Timer] /Users/wangyi/node/yoo/wx/app/schedule/delete_pic.js next time will execute after 11460799ms at 2019-03-19 00:00:00.000
+2019-03-18 20:48:58,881 INFO 37157 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-18 20:48:58,881 INFO 37157 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-18 20:48:58,881 INFO 37157 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/app/schedule/delete_pic.js
+2019-03-18 20:58:03,808 INFO 37189 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-18 20:58:03,808 INFO 37189 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-18 20:58:03,808 INFO 37189 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/app/schedule/delete_pic.js
+2019-03-18 20:58:04,611 INFO 37188 [Timer] /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 10915392ms at 2019-03-19 00:00:00.003
+2019-03-18 20:58:04,611 INFO 37188 [Timer] /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10916389ms at 2019-03-19 00:00:01.000
+2019-03-18 20:58:04,611 INFO 37188 [Timer] /Users/wangyi/node/yoo/wx/app/schedule/delete_pic.js next time will execute after 10915389ms at 2019-03-19 00:00:00.000
+2019-03-19 10:25:46,095 INFO 37630 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-03-19 10:25:46,095 INFO 37630 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-03-19 10:25:46,095 INFO 37630 [egg-schedule]: register schedule /Users/wangyi/node/yoo/wx/app/schedule/delete_pic.js
+2019-03-19 10:25:46,735 INFO 37629 [Timer] /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48853269ms at 2019-03-20 00:00:00.004
+2019-03-19 10:25:46,735 INFO 37629 [Timer] /Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48854265ms at 2019-03-20 00:00:01.000
+2019-03-19 10:25:46,735 INFO 37629 [Timer] /Users/wangyi/node/yoo/wx/app/schedule/delete_pic.js next time will execute after 48853265ms at 2019-03-20 00:00:00.000

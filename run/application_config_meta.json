@@ -1,0 +1,312 @@
+{
+  "view": {
+    "defaultViewEngine": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "defaultExtension": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "root": "/Users/wangyi/node/yoo/wx/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/wangyi/node/yoo/wx/node_modules/egg-view/config/config.local.js",
+    "mapping": "/Users/wangyi/node/yoo/wx/node_modules/egg-view/config/config.default.js"
+  },
+  "keys": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+  "multipart": {
+    "fileExtensions": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "fileSize": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "mode": "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "avatarUrl": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+  "baseDir": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+  "session": {
+    "key": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "maxAge": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "httpOnly": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "encrypt": "/Users/wangyi/node/yoo/wx/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+      "useSession": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "bodyParser": {
+    "enable": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "encoding": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "formLimit": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "jsonLimit": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "strict": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+      "depth": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+      "parameterLimit": "/Users/wangyi/node/yoo/wx/config/config.default.js"
+    },
+    "returnRawBody": "/Users/wangyi/node/yoo/wx/config/config.default.js"
+  },
+  "cors": {
+    "origin": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "allowMethods": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "credentials": "/Users/wangyi/node/yoo/wx/config/config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "port": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+    }
+  },
+  "taobao": {
+    "AppKey": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "AppSecret": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "redirectUrl": "/Users/wangyi/node/yoo/wx/config/config.default.js"
+  },
+  "iot": {
+    "redirectUrl": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "skin": {
+      "appKey": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+      "appSecret": "/Users/wangyi/node/yoo/wx/config/config.default.js"
+    },
+    "face": {
+      "appKey": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+      "appSecret": "/Users/wangyi/node/yoo/wx/config/config.default.js"
+    },
+    "bluetooth": {
+      "appKey": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+      "appSecret": "/Users/wangyi/node/yoo/wx/config/config.default.js"
+    },
+    "advertisement": {
+      "appKey": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+      "appSecret": "/Users/wangyi/node/yoo/wx/config/config.default.js"
+    }
+  },
+  "static": {
+    "dir": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "maxAge": "/Users/wangyi/node/yoo/wx/config/config.default.js",
+    "prefix": "/Users/wangyi/node/yoo/wx/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/wangyi/node/yoo/wx/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/wangyi/node/yoo/wx/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/wangyi/node/yoo/wx/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/wangyi/node/yoo/wx/node_modules/egg-static/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/wangyi/node/yoo/wx/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/wangyi/node/yoo/wx/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/wangyi/node/yoo/wx/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/wangyi/node/yoo/wx/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/wangyi/node/yoo/wx/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/wangyi/node/yoo/wx/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/wangyi/node/yoo/wx/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/wangyi/node/yoo/wx/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/wangyi/node/yoo/wx/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/wangyi/node/yoo/wx/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/wangyi/node/yoo/wx/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/wangyi/node/yoo/wx/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/wangyi/node/yoo/wx/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/wangyi/node/yoo/wx/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/wangyi/node/yoo/wx/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/wangyi/node/yoo/wx/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/wangyi/node/yoo/wx/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/wangyi/node/yoo/wx/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/wangyi/node/yoo/wx/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/wangyi/node/yoo/wx/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/wangyi/node/yoo/wx/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/wangyi/node/yoo/wx/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/wangyi/node/yoo/wx/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/wangyi/node/yoo/wx/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/wangyi/node/yoo/wx/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/wangyi/node/yoo/wx/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/wangyi/node/yoo/wx/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+  "name": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "version": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "description": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "main": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "lint": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "test": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "start": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "stop": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "license": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "await-stream-ready": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "axios": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "body-parser": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "connect-multiparty": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "egg": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "json-bigint": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "md5": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "mime": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "request": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "uuid": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "ws": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "xml2js": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+    }
+  },
+  "HOME": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "env": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "level": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "logging": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js"
+}

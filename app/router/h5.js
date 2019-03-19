@@ -33,5 +33,6 @@ module.exports = app => {
   router.get('/wx/getSecrentToken', controller.wx.wxPro.getSecrentToken);
   router.get('/wx/test', controller.wx.wxPro.test1);
   router.post('/wx/test', xmlparse(), controller.wx.wxPro.test2);
+  // router.get('/wx/test2', controller.wx.wxPro.test3);
 
 };

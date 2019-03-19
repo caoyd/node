@@ -1,0 +1,113 @@
+2019-03-18 20:45:53,750 INFO 37126 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-18 20:45:53,791 INFO 37126 [egg-multipart] stream mode enable
+2019-03-18 20:45:54,351 INFO 37126 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-18 20:45:54,352 INFO 37126 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-18 20:45:54,354 INFO 37126 [egg-security] use methodnoallow middleware
+2019-03-18 20:45:54,354 INFO 37126 [egg-security] use noopen middleware
+2019-03-18 20:45:54,355 INFO 37126 [egg-security] use nosniff middleware
+2019-03-18 20:45:54,356 INFO 37126 [egg-security] use xssProtection middleware
+2019-03-18 20:45:54,357 INFO 37126 [egg-security] use xframe middleware
+2019-03-18 20:45:54,357 INFO 37126 [egg-security] use dta middleware
+2019-03-18 20:45:54,357 INFO 37126 [egg-security] compose 6 middlewares into one security middleware
+2019-03-18 20:45:54,429 INFO 37126 [egg:core] dump config after load, 5ms
+2019-03-18 20:45:54,447 INFO 37126 [egg-watcher:application] watcher start success
+2019-03-18 20:45:54,459 INFO 37126 [egg:core] dump config after ready, 6ms
+2019-03-18 20:45:58,246 INFO 37126 [egg-view-nunjucks] loading templates from ["/Users/wangyi/node/yoo/wx/app/view"]
+2019-03-18 20:48:06,753 INFO 37146 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-18 20:48:06,788 INFO 37146 [egg-multipart] stream mode enable
+2019-03-18 20:48:07,390 INFO 37146 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-18 20:48:07,391 INFO 37146 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-18 20:48:07,393 INFO 37146 [egg-security] use methodnoallow middleware
+2019-03-18 20:48:07,393 INFO 37146 [egg-security] use noopen middleware
+2019-03-18 20:48:07,394 INFO 37146 [egg-security] use nosniff middleware
+2019-03-18 20:48:07,395 INFO 37146 [egg-security] use xssProtection middleware
+2019-03-18 20:48:07,396 INFO 37146 [egg-security] use xframe middleware
+2019-03-18 20:48:07,396 INFO 37146 [egg-security] use dta middleware
+2019-03-18 20:48:07,396 INFO 37146 [egg-security] compose 6 middlewares into one security middleware
+2019-03-18 20:48:07,469 INFO 37146 [egg:core] dump config after load, 4ms
+2019-03-18 20:48:07,485 INFO 37146 [egg-watcher:application] watcher start success
+2019-03-18 20:48:07,491 INFO 37146 [egg:core] dump config after ready, 4ms
+2019-03-18 20:48:58,854 INFO 37157 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-18 20:48:58,882 INFO 37157 [egg-multipart] stream mode enable
+2019-03-18 20:48:59,132 INFO 37157 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-18 20:48:59,133 INFO 37157 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-18 20:48:59,134 INFO 37157 [egg-security] use methodnoallow middleware
+2019-03-18 20:48:59,134 INFO 37157 [egg-security] use noopen middleware
+2019-03-18 20:48:59,134 INFO 37157 [egg-security] use nosniff middleware
+2019-03-18 20:48:59,135 INFO 37157 [egg-security] use xssProtection middleware
+2019-03-18 20:48:59,135 INFO 37157 [egg-security] use xframe middleware
+2019-03-18 20:48:59,135 INFO 37157 [egg-security] use dta middleware
+2019-03-18 20:48:59,135 INFO 37157 [egg-security] compose 6 middlewares into one security middleware
+2019-03-18 20:48:59,170 INFO 37157 [egg:core] dump config after load, 4ms
+2019-03-18 20:48:59,185 INFO 37157 [egg-watcher:application] watcher start success
+2019-03-18 20:48:59,191 INFO 37157 [egg:core] dump config after ready, 4ms
+2019-03-18 20:57:30,029 INFO 37157 [egg-view-nunjucks] loading templates from ["/Users/wangyi/node/yoo/wx/app/view"]
+2019-03-18 20:58:03,773 INFO 37189 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-18 20:58:03,809 INFO 37189 [egg-multipart] stream mode enable
+2019-03-18 20:58:04,478 INFO 37189 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-18 20:58:04,479 INFO 37189 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-18 20:58:04,481 INFO 37189 [egg-security] use methodnoallow middleware
+2019-03-18 20:58:04,482 INFO 37189 [egg-security] use noopen middleware
+2019-03-18 20:58:04,483 INFO 37189 [egg-security] use nosniff middleware
+2019-03-18 20:58:04,484 INFO 37189 [egg-security] use xssProtection middleware
+2019-03-18 20:58:04,485 INFO 37189 [egg-security] use xframe middleware
+2019-03-18 20:58:04,486 INFO 37189 [egg-security] use dta middleware
+2019-03-18 20:58:04,486 INFO 37189 [egg-security] compose 6 middlewares into one security middleware
+2019-03-18 20:58:04,570 INFO 37189 [egg:core] dump config after load, 5ms
+2019-03-18 20:58:04,587 INFO 37189 [egg-watcher:application] watcher start success
+2019-03-18 20:58:04,601 INFO 37189 [egg:core] dump config after ready, 12ms
+2019-03-18 21:59:07,081 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 22:04:50,031 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 22:10:12,987 WARN 37189 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-18 22:10:12,987 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 22:15:55,980 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 22:21:38,944 WARN 37189 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-18 22:21:38,945 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 22:27:21,926 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 23:02:57,747 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 23:08:40,806 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 23:14:23,816 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 23:19:46,763 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 23:25:29,732 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 23:31:12,689 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-18 23:40:54,123 WARN 37189 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-18 23:40:54,124 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 01:41:52,925 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 01:47:35,891 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 01:53:23,941 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 01:58:46,907 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 02:10:12,873 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 02:15:35,807 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 04:16:34,653 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 04:22:17,657 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 04:27:41,116 WARN 37189 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-19 04:27:41,117 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 04:33:24,081 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 04:39:07,055 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 04:44:50,023 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 04:50:12,969 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 06:51:11,876 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 06:56:54,870 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 07:02:17,820 WARN 37189 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-19 07:02:17,820 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 07:08:00,783 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 07:19:07,252 WARN 37189 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-19 07:19:07,253 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 07:24:50,196 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 09:25:49,148 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 09:31:32,114 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 09:36:55,057 WARN 37189 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-19 10:25:46,068 INFO 37630 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-19 10:25:46,095 INFO 37630 [egg-multipart] stream mode enable
+2019-03-19 10:25:46,630 INFO 37630 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-19 10:25:46,631 INFO 37630 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-19 10:25:46,633 INFO 37630 [egg-security] use methodnoallow middleware
+2019-03-19 10:25:46,634 INFO 37630 [egg-security] use noopen middleware
+2019-03-19 10:25:46,634 INFO 37630 [egg-security] use nosniff middleware
+2019-03-19 10:25:46,635 INFO 37630 [egg-security] use xssProtection middleware
+2019-03-19 10:25:46,636 INFO 37630 [egg-security] use xframe middleware
+2019-03-19 10:25:46,636 INFO 37630 [egg-security] use dta middleware
+2019-03-19 10:25:46,636 INFO 37630 [egg-security] compose 6 middlewares into one security middleware
+2019-03-19 10:25:46,699 INFO 37630 [egg:core] dump config after load, 5ms
+2019-03-19 10:25:46,717 INFO 37630 [egg-watcher:application] watcher start success
+2019-03-19 10:25:46,728 INFO 37630 [egg:core] dump config after ready, 5ms

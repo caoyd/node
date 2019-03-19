@@ -1,0 +1,1443 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "ACL",
+      "BIND",
+      "CHECKOUT",
+      "CONNECT",
+      "COPY",
+      "DELETE",
+      "GET",
+      "HEAD",
+      "LINK",
+      "LOCK",
+      "M-SEARCH",
+      "MERGE",
+      "MKACTIVITY",
+      "MKCALENDAR",
+      "MKCOL",
+      "MOVE",
+      "NOTIFY",
+      "OPTIONS",
+      "PATCH",
+      "POST",
+      "PROPFIND",
+      "PROPPATCH",
+      "PURGE",
+      "PUT",
+      "REBIND",
+      "REPORT",
+      "SEARCH",
+      "SOURCE",
+      "SUBSCRIBE",
+      "TRACE",
+      "UNBIND",
+      "UNLINK",
+      "UNLOCK",
+      "UNSUBSCRIBE"
+    ],
+    "paramNames": [],
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/index.html",
+    "regexp": "/^\\/index\\.html(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "ACL",
+      "BIND",
+      "CHECKOUT",
+      "CONNECT",
+      "COPY",
+      "DELETE",
+      "GET",
+      "HEAD",
+      "LINK",
+      "LOCK",
+      "M-SEARCH",
+      "MERGE",
+      "MKACTIVITY",
+      "MKCALENDAR",
+      "MKCOL",
+      "MOVE",
+      "NOTIFY",
+      "OPTIONS",
+      "PATCH",
+      "POST",
+      "PROPFIND",
+      "PROPPATCH",
+      "PURGE",
+      "PUT",
+      "REBIND",
+      "REPORT",
+      "SEARCH",
+      "SOURCE",
+      "SUBSCRIBE",
+      "TRACE",
+      "UNBIND",
+      "UNLINK",
+      "UNLOCK",
+      "UNSUBSCRIBE"
+    ],
+    "paramNames": [],
+    "path": "/activity/",
+    "regexp": "/^\\/activity(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/activity/index.html",
+    "regexp": "/^\\/activity\\/index\\.html(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/category/save",
+    "regexp": "/^\\/admin\\/category\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/category/delete",
+    "regexp": "/^\\/admin\\/category\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/category/list",
+    "regexp": "/^\\/admin\\/category\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/route/get",
+    "regexp": "/^\\/admin\\/route\\/get(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/top/getOnsaleList",
+    "regexp": "/^\\/admin\\/top\\/getOnsaleList(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/base/synchronizationTaobaoData",
+    "regexp": "/^\\/admin\\/base\\/synchronizationTaobaoData(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/resource/save",
+    "regexp": "/^\\/admin\\/resource\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/resource/get",
+    "regexp": "/^\\/admin\\/resource\\/get(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/base/classify/create",
+    "regexp": "/^\\/admin\\/base\\/classify\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/base/goods/save",
+    "regexp": "/^\\/admin\\/base\\/goods\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/base/goods/delete",
+    "regexp": "/^\\/admin\\/base\\/goods\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/base/goods/list",
+    "regexp": "/^\\/admin\\/base\\/goods\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/activity/create",
+    "regexp": "/^\\/admin\\/activity\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/activity/list",
+    "regexp": "/^\\/admin\\/activity\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/activity/getStore",
+    "regexp": "/^\\/admin\\/activity\\/getStore(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/award/save",
+    "regexp": "/^\\/admin\\/award\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/award/list",
+    "regexp": "/^\\/admin\\/award\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/award/delete",
+    "regexp": "/^\\/admin\\/award\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "activityOauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/logout",
+    "regexp": "/^\\/admin\\/logout(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/volvo/getGameInfo",
+    "regexp": "/^\\/admin\\/volvo\\/getGameInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/volvo/carSelected",
+    "regexp": "/^\\/admin\\/volvo\\/carSelected(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/volvo/getActionInfo",
+    "regexp": "/^\\/admin\\/volvo\\/getActionInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/volvo/getAllAward",
+    "regexp": "/^\\/admin\\/volvo\\/getAllAward(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/volvo/getGameRank",
+    "regexp": "/^\\/admin\\/volvo\\/getGameRank(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/volvo/getPrizeUserList",
+    "regexp": "/^\\/admin\\/volvo\\/getPrizeUserList(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/volvo/getRestPrize",
+    "regexp": "/^\\/admin\\/volvo\\/getRestPrize(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/volvo/getFlowData",
+    "regexp": "/^\\/admin\\/volvo\\/getFlowData(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/volvo/downLoadAllLotteryUser",
+    "regexp": "/^\\/admin\\/volvo\\/downLoadAllLotteryUser(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/admin/volvo/downLoadEntityLotteryUser",
+    "regexp": "/^\\/admin\\/volvo\\/downLoadEntityLotteryUser(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/front/device/status",
+    "regexp": "/^\\/front\\/device\\/status(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/front/device/iashelf",
+    "regexp": "/^\\/front\\/device\\/iashelf(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/goods/list/base",
+    "regexp": "/^\\/front\\/goods\\/list\\/base(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/goods/list/detail",
+    "regexp": "/^\\/front\\/goods\\/list\\/detail(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/category/goods/list/base",
+    "regexp": "/^\\/front\\/category\\/goods\\/list\\/base(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/category/goods/listWithN/detail",
+    "regexp": "/^\\/front\\/category\\/goods\\/listWithN\\/detail(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/category/goods/listWithN/base",
+    "regexp": "/^\\/front\\/category\\/goods\\/listWithN\\/base(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/union/goods/list",
+    "regexp": "/^\\/front\\/union\\/goods\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/resource/get",
+    "regexp": "/^\\/front\\/resource\\/get(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/lottery/get",
+    "regexp": "/^\\/front\\/lottery\\/get(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/front/user/login",
+    "regexp": "/^\\/front\\/user\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/front/user/addTelephone",
+    "regexp": "/^\\/front\\/user\\/addTelephone(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/front/photo/upload",
+    "regexp": "/^\\/front\\/photo\\/upload(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "image",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/front/photo/download/:image",
+    "regexp": "/^\\/front\\/photo\\/download\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/skin/report/save",
+    "regexp": "/^\\/front\\/skin\\/report\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/skin/detail",
+    "regexp": "/^\\/front\\/skin\\/detail(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/skin/goods/list",
+    "regexp": "/^\\/front\\/skin\\/goods\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/skin/member/check",
+    "regexp": "/^\\/front\\/skin\\/member\\/check(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/front/device/detector",
+    "regexp": "/^\\/front\\/device\\/detector(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/manager/index.html",
+    "regexp": "/^\\/manager\\/index\\.html(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/manager/logout",
+    "regexp": "/^\\/manager\\/logout(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/manager/user/login",
+    "regexp": "/^\\/manager\\/user\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/manager/user/list",
+    "regexp": "/^\\/manager\\/user\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/volvo/info",
+    "regexp": "/^\\/volvo\\/info(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/volvo/assistance/get",
+    "regexp": "/^\\/volvo\\/assistance\\/get(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/volvo/assist",
+    "regexp": "/^\\/volvo\\/assist(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/volvo/game/start",
+    "regexp": "/^\\/volvo\\/game\\/start(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/volvo/score/upload",
+    "regexp": "/^\\/volvo\\/score\\/upload(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/volvo/user/register",
+    "regexp": "/^\\/volvo\\/user\\/register(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/volvo/user/log",
+    "regexp": "/^\\/volvo\\/user\\/log(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/volvo/game/rank",
+    "regexp": "/^\\/volvo\\/game\\/rank(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/volvo/game/lottery",
+    "regexp": "/^\\/volvo\\/game\\/lottery(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/volvo/assistance/lottery",
+    "regexp": "/^\\/volvo\\/assistance\\/lottery(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/volvo/seo",
+    "regexp": "/^\\/volvo\\/seo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/wx/getSecrentToken",
+    "regexp": "/^\\/wx\\/getSecrentToken(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/wx/test",
+    "regexp": "/^\\/wx\\/test(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/wx/test",
+    "regexp": "/^\\/wx\\/test(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [
+      {
+        "name": "type",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/iot/:type/createInstance",
+    "regexp": "/^\\/iot\\/((?:[^\\/]+?))\\/createInstance(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [
+      {
+        "name": "type",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/iot/:type/deleteInstance",
+    "regexp": "/^\\/iot\\/((?:[^\\/]+?))\\/deleteInstance(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [
+      {
+        "name": "type",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/iot/:type/GetSSOUrl",
+    "regexp": "/^\\/iot\\/((?:[^\\/]+?))\\/GetSSOUrl(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/iot/index.html",
+    "regexp": "/^\\/iot\\/index\\.html(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/goods/create",
+    "regexp": "/^\\/iot\\/goods\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/iot/goods/getList",
+    "regexp": "/^\\/iot\\/goods\\/getList(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/goods/update",
+    "regexp": "/^\\/iot\\/goods\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/iot/app/list",
+    "regexp": "/^\\/iot\\/app\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/app/update",
+    "regexp": "/^\\/iot\\/app\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/iot/app/getInfo",
+    "regexp": "/^\\/iot\\/app\\/getInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/iot/class/getList",
+    "regexp": "/^\\/iot\\/class\\/getList(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/class/create",
+    "regexp": "/^\\/iot\\/class\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/class/update",
+    "regexp": "/^\\/iot\\/class\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/class/remove",
+    "regexp": "/^\\/iot\\/class\\/remove(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/iot/appGoods/getList",
+    "regexp": "/^\\/iot\\/appGoods\\/getList(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/appGoods/create",
+    "regexp": "/^\\/iot\\/appGoods\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/appGoods/update",
+    "regexp": "/^\\/iot\\/appGoods\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/appGoods/remove",
+    "regexp": "/^\\/iot\\/appGoods\\/remove(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/iot/resource/getList",
+    "regexp": "/^\\/iot\\/resource\\/getList(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/resource/create",
+    "regexp": "/^\\/iot\\/resource\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/iot/face/getList",
+    "regexp": "/^\\/iot\\/face\\/getList(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/face/createList",
+    "regexp": "/^\\/iot\\/face\\/createList(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/face/update",
+    "regexp": "/^\\/iot\\/face\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/face/remove",
+    "regexp": "/^\\/iot\\/face\\/remove(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/iot/shop/getList",
+    "regexp": "/^\\/iot\\/shop\\/getList(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/shop/create",
+    "regexp": "/^\\/iot\\/shop\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/shop/update",
+    "regexp": "/^\\/iot\\/shop\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/shop/remove",
+    "regexp": "/^\\/iot\\/shop\\/remove(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/iot/shop/getNameList",
+    "regexp": "/^\\/iot\\/shop\\/getNameList(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/iot/backFlow/getActionList",
+    "regexp": "/^\\/iot\\/backFlow\\/getActionList(?:\\/(?=$))?$/",
+    "stack": [
+      "oauth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/iot/backFlow/action",
+    "regexp": "/^\\/iot\\/backFlow\\/action(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  }
+]

@@ -39,6 +39,7 @@ class TestWx extends Controller {
   async test2() {
     const {ctx} = this;
     let data = '';
+    ctx.set('Content-Type', 'text/xml');
     ctx.req.setEncoding('utf8');
     ctx.req.on('data',function(chunk) {
       data += chunk;
@@ -56,8 +57,15 @@ class TestWx extends Controller {
             Content: Content + '(测试)',
           }
         };
-        const builder = new xml2js.Builder();
-        ctx.body = builder.buildObject(data);
+        const xml =
+          `<xml>
+            <ToUserName>` + data.xml.ToUserName + `</ToUserName>
+            <FromUserName>` + data.xml.FromUserName + `</FromUserName>
+            <CreateTime>` + data.xml.CreateTime + `</CreateTime>
+            <MsgType>` + data.xml.MsgType + `</MsgType>
+            <Content>` + data.xml.Content + `</Content>
+          </xml>`;
+        ctx.body = xml;
       });
 
     });

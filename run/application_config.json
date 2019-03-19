@@ -1,0 +1,556 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "yule",
+      "httpOnly": true,
+      "encrypt": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function anonymous>"
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/wangyi/node/yoo/wx/node_modules/egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-session/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-security/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-jsonp/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-onerror/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-i18n/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-watcher/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-schedule/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-development/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-logrotator/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-static/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-view/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-cors/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg-view-nunjucks/config/locales",
+        "/Users/wangyi/node/yoo/wx/node_modules/egg/config/locales",
+        "/Users/wangyi/node/yoo/wx/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/wangyi/node/yoo/wx/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/wangyi/node/yoo/wx/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "/Users/wangyi/node/yoo/wx/logs/cloud-server/egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [
+        ".xlsx"
+      ],
+      "whitelist": null,
+      "tmpdir": "/var/folders/90/1wdp9cb57h9dgsh1y0ydp1240000gn/T/egg-multipart-tmp/cloud-server",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": [
+        "/Users/wangyi/node/yoo/wx/upload",
+        "/Users/wangyi/node/yoo/wx/app/public"
+      ],
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000,
+      "maxAge": 0
+    },
+    "view": {
+      "root": [
+        "/Users/wangyi/node/yoo/wx/app/view"
+      ],
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "nunjucks",
+      "mapping": {}
+    },
+    "cors": {
+      "origin": "*",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH",
+      "credentials": true
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
+    },
+    "env": "local",
+    "name": "cloud-server",
+    "keys": "<String len: 4>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "cloud-server",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "dev": "egg-bin dev",
+        "lint": "./node_modules/.bin/eslint --fix app",
+        "test": "egg-bin test",
+        "start": "egg-scripts start --worker=1",
+        "stop": "egg-scripts stop"
+      },
+      "author": "",
+      "license": "ISC",
+      "dependencies": {
+        "await-stream-ready": "^1.0.1",
+        "axios": "^0.18.0",
+        "body-parser": "^1.18.3",
+        "connect-multiparty": "^2.2.0",
+        "egg": "^2.0.0",
+        "egg-bin": "^4.3.7",
+        "egg-cors": "^2.0.0",
+        "egg-scripts": "^2.5.0",
+        "egg-sequelize": "^3.1.0",
+        "egg-view-nunjucks": "^2.1.4",
+        "json-bigint": "^0.2.3",
+        "md5": "^2.2.1",
+        "mime": "^2.3.1",
+        "mysql2": "^1.5.3",
+        "request": "^2.83.0",
+        "uuid": "^3.3.2",
+        "ws": "^5.0.0",
+        "xml2js": "^0.4.19"
+      }
+    },
+    "baseDir": "/Users/wangyi/node/yoo/wx/upload",
+    "HOME": "/Users/wangyi",
+    "rundir": "/Users/wangyi/node/yoo/wx/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "1mb",
+      "jsonLimit": "10mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/wangyi/node/yoo/wx/logs/cloud-server",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "cloud-server-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "cors",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "eggLoaderTrace"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 80,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "avatarUrl": "http://192.168.1.6:5000/public",
+    "taobao": {
+      "AppKey": "25018990",
+      "AppSecret": "<String len: 32>",
+      "redirectUrl": "https://yoofun.ews.m.jaeapp.com/index.html"
+    },
+    "iot": {
+      "redirectUrl": "http://yoofun.ews.m.jaeapp.com/iot/index.html",
+      "skin": {
+        "appKey": "25509607",
+        "appSecret": "<String len: 32>"
+      },
+      "face": {
+        "appKey": "25530051",
+        "appSecret": "<String len: 32>"
+      },
+      "bluetooth": {
+        "appKey": "25551055",
+        "appSecret": "<String len: 32>"
+      },
+      "advertisement": {
+        "appKey": "25541049",
+        "appSecret": "<String len: 32>"
+      }
+    },
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": [],
+    "appMiddleware": "~config~appMiddlewares",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-security",
+      "version": "2.5.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-i18n",
+      "version": "2.0.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-watcher",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-schedule",
+      "version": "3.6.0"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-multipart",
+      "version": "2.4.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-development",
+      "version": "2.4.2"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-logrotator",
+      "version": "3.0.7"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-static",
+      "version": "2.2.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-view",
+      "version": "2.1.2"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-cors",
+      "version": "2.2.0"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wangyi/node/yoo/wx/config/plugin.js",
+      "path": "/Users/wangyi/node/yoo/wx/node_modules/egg-view-nunjucks",
+      "version": "2.2.0"
+    }
+  }
+}

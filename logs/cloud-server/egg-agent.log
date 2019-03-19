@@ -1,0 +1,410 @@
+2019-03-18 20:45:52,747 INFO 37125 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-18 20:45:52,927 INFO 37125 [egg:core] dump config after load, 4ms
+2019-03-18 20:45:52,976 INFO 37125 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-18 20:45:52,977 INFO 37125 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-18 20:45:52,977 INFO 37125 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-18 20:45:52,977 INFO 37125 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-18 20:45:52,977 INFO 37125 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-18 20:45:52,977 INFO 37125 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-18 20:45:52,977 INFO 37125 [egg-watcher:agent] watcher start success
+2019-03-18 20:45:52,984 INFO 37125 [egg:core] dump config after ready, 5ms
+2019-03-18 20:48:05,831 INFO 37145 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-18 20:48:05,990 INFO 37145 [egg:core] dump config after load, 4ms
+2019-03-18 20:48:06,039 INFO 37145 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-18 20:48:06,039 INFO 37145 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-18 20:48:06,039 INFO 37145 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-18 20:48:06,040 INFO 37145 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-18 20:48:06,040 INFO 37145 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-18 20:48:06,040 INFO 37145 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-18 20:48:06,040 INFO 37145 [egg-watcher:agent] watcher start success
+2019-03-18 20:48:06,050 INFO 37145 [egg:core] dump config after ready, 5ms
+2019-03-18 20:48:58,226 INFO 37156 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-18 20:48:58,320 INFO 37156 [egg:core] dump config after load, 3ms
+2019-03-18 20:48:58,348 INFO 37156 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-18 20:48:58,348 INFO 37156 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-18 20:48:58,348 INFO 37156 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-18 20:48:58,348 INFO 37156 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-18 20:48:58,348 INFO 37156 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-18 20:48:58,348 INFO 37156 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-18 20:48:58,348 INFO 37156 [egg-watcher:agent] watcher start success
+2019-03-18 20:48:58,355 INFO 37156 [egg:core] dump config after ready, 3ms
+2019-03-18 20:58:02,848 INFO 37188 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-18 20:58:03,040 INFO 37188 [egg:core] dump config after load, 4ms
+2019-03-18 20:58:03,093 INFO 37188 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-18 20:58:03,093 INFO 37188 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-18 20:58:03,093 INFO 37188 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-18 20:58:03,093 INFO 37188 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-18 20:58:03,093 INFO 37188 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-18 20:58:03,093 INFO 37188 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-18 20:58:03,093 INFO 37188 [egg-watcher:agent] watcher start success
+2019-03-18 20:58:03,103 INFO 37188 [egg:core] dump config after ready, 4ms
+2019-03-18 21:59:07,081 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 301859ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 22:04:50,031 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302935ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 22:10:12,986 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302940ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 22:15:55,980 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 22:21:38,944 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302945ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 22:27:21,926 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302963ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 23:02:57,747 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 2115807ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 23:08:40,806 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302996ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 23:14:23,816 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302999ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 23:19:46,763 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302940ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 23:25:29,732 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302954ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 23:31:12,689 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302939ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-18 23:40:54,124 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 561419ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 01:41:52,925 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 7218764ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 01:47:35,891 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302957ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 01:53:23,941 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 308027ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 01:58:46,907 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302950ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 02:10:12,873 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302990ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 02:15:35,807 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302923ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 04:16:34,653 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 7218827ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 04:22:17,657 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302956ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 04:27:41,116 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 303433ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 04:33:24,081 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302936ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 04:39:07,055 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302947ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 04:44:50,023 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302950ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 04:50:12,969 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302929ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 06:51:11,876 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 7218894ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 06:56:54,870 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302946ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 07:02:17,820 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302937ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 07:08:00,783 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302951ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 07:19:07,253 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 303391ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 07:24:50,196 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302909ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 09:25:49,149 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 7218935ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 09:31:32,114 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302955ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 09:36:55,057 ERROR 37188 nodejs.ClusterClientNoResponseError: client no response in 302928ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37188
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 10:25:19,319 INFO 37619 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-19 10:25:19,510 INFO 37619 [egg:core] dump config after load, 9ms
+2019-03-19 10:25:19,568 INFO 37619 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-19 10:25:19,568 INFO 37619 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-19 10:25:19,568 INFO 37619 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-19 10:25:19,568 INFO 37619 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-19 10:25:19,568 INFO 37619 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-19 10:25:19,568 INFO 37619 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-19 10:25:19,568 INFO 37619 [egg-watcher:agent] watcher start success
+2019-03-19 10:25:19,578 INFO 37619 [egg:core] dump config after ready, 4ms
+2019-03-19 10:25:45,461 INFO 37629 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-19 10:25:45,543 INFO 37629 [egg:core] dump config after load, 3ms
+2019-03-19 10:25:45,570 INFO 37629 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-19 10:25:45,570 INFO 37629 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-19 10:25:45,570 INFO 37629 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-19 10:25:45,570 INFO 37629 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-19 10:25:45,570 INFO 37629 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-19 10:25:45,570 INFO 37629 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-19 10:25:45,570 INFO 37629 [egg-watcher:agent] watcher start success
+2019-03-19 10:25:45,577 INFO 37629 [egg:core] dump config after ready, 3ms
