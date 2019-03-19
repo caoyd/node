@@ -44,32 +44,25 @@ class TestWx extends Controller {
     ctx.req.on('data',function(chunk) {
       data += chunk;
     });
-    ctx.req.on('end',function() {
-      xml2js.parseString(data, {explicitArray: false}, (err, json) => {
-        console.log(json);//这里的json便是xml转为json的内容
-        const {Content, ToUserName, FromUserName, MsgType} = json.xml;
-        const data = {
-          xml: {
-            ToUserName,
-            FromUserName,
-            CreateTime: parseInt(new Date().getTime() / 1000),
-            MsgType,
-            Content: Content + '(测试)',
-          }
-        };
-        const xml =
-          `<xml>
-            <ToUserName>` + data.xml.ToUserName + `</ToUserName>
-            <FromUserName>` + data.xml.FromUserName + `</FromUserName>
-            <CreateTime>` + data.xml.CreateTime + `</CreateTime>
-            <MsgType>` + data.xml.MsgType + `</MsgType>
-            <Content>` + data.xml.Content + `</Content>
-          </xml>`;
-        ctx.body = xml;
+    const json = await new Promise(res => {
+      ctx.req.on('end',function() {
+        xml2js.parseString(data, {explicitArray: false}, (err, json) => {
+          res(json);
+        });
       });
-
     });
-
+    const {Content, ToUserName, FromUserName, MsgType} = json.xml;
+    const xmlData = {
+      xml: {
+        ToUserName: `<![CDATA[${ToUserName}]]>`,
+        FromUserName: `<![CDATA[${FromUserName}]]>`,
+        CreateTime: parseInt(new Date().getTime() / 1000),
+        MsgType: '<![CDATA[text]]>',
+        Content: `<![CDATA[${Content + '(测试)'}]]`,
+      }
+    };
+    const builder = new xml2js.Builder();
+    ctx.body = builder.buildObject(xmlData);
   }
 
 }
