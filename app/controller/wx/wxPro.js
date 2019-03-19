@@ -61,14 +61,33 @@ class TestWx extends Controller {
         Content: `<![CDATA[${Content + '(测试)'}]]`,
       }
     };
-    const xml = '<xml>'
-        + '<ToUserName><![CDATA['+ ToUserName + ']]></ToUserName>' +
-        + '<FromUserName><![CDATA[ '+ FromUserName +' ]]></FromUserName>' +
-        + '<CreateTime>' + parseInt(new Date().getTime() / 1000) + '</CreateTime>' +
-        + '<MsgType><![CDATA[ ' + MsgType + ' ]]></MsgType>' +
-        + '<Content><![CDATA[ '+ Content + '(测试)' +' ]]></Content>' +
-      '</xml>';
+    const xml = `<xml>
+      <ToUserName><![CDATA[${ToUserName}]]></ToUserName>
+      <FromUserName><![CDATA[${FromUserName}]]></FromUserName>
+      <CreateTime>${parseInt(new Date().getTime() / 1000)}</CreateTime>
+      <MsgType><![CDATA[${MsgType}]]></MsgType>
+      <Content><![CDATA[${Content}]]></Content>
+      </xml>`;
     const builder = new xml2js.Builder();
+    ctx.body = xml;
+  }
+
+  async test3() {
+    const {ctx} = this;
+    ctx.set('Content-Type', 'application/xml');
+    const ToUserName = 'test';
+    const xml = `<xml>
+      <ToUserName><![CDATA[ToUserName]]></ToUserName>
+      <FromUserName><![CDATA[FromUserName]]></FromUserName>
+      <CreateTime>${parseInt(new Date().getTime() / 1000)}</CreateTime>
+      <MsgType><![CDATA[MsgType]]></MsgType>
+      <Content><![CDATA[Content]]></Content>
+      </xml>`;
+    xml2js.parseString(xml, {explicitArray: false}, (err, json) => {
+      console.log(json);
+    });
+    const builder = new xml2js.Builder();
+
     ctx.body = xml;
   }
 

@@ -348,3 +348,57 @@ name: "ClusterClientNoResponseError"
 pid: 37188
 hostname: wangyideMacBook-Pro.local
 
+2019-03-19 11:25:05,271 ERROR 37930 [-/127.0.0.1/-/14ms GET /wx/test2] nodejs.ReferenceError: xml is not defined
+    at TestWx.test3 (/Users/wangyi/node/yoo/wx/app/controller/wx/wxPro.js:79:24)
+    at Object.callFn (/Users/wangyi/node/yoo/wx/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wangyi/node/yoo/wx/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wangyi/node/yoo/wx/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wangyi/node/yoo/wx/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wangyi/node/yoo/wx/node_modules/koa-compose/index.js:45:18)
+    at /Users/wangyi/node/yoo/wx/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/koa-compose/index.js:44:32)
+    at /Users/wangyi/node/yoo/wx/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wangyi/node/yoo/wx/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/wangyi/node/yoo/wx/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/wangyi/node/yoo/wx/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/wangyi/node/yoo/wx/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/wangyi/node/yoo/wx/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 37930
+hostname: wangyideMacBook-Pro.local
+
+2019-03-19 11:25:07,782 ERROR 37930 [-/127.0.0.1/-/2ms GET /wx/test2] nodejs.ReferenceError: xml is not defined
+    at TestWx.test3 (/Users/wangyi/node/yoo/wx/app/controller/wx/wxPro.js:79:24)
+    at Object.callFn (/Users/wangyi/node/yoo/wx/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wangyi/node/yoo/wx/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wangyi/node/yoo/wx/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wangyi/node/yoo/wx/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wangyi/node/yoo/wx/node_modules/koa-compose/index.js:45:18)
+    at /Users/wangyi/node/yoo/wx/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/koa-compose/index.js:44:32)
+    at /Users/wangyi/node/yoo/wx/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wangyi/node/yoo/wx/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/wangyi/node/yoo/wx/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/wangyi/node/yoo/wx/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/wangyi/node/yoo/wx/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/wangyi/node/yoo/wx/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/wangyi/node/yoo/wx/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 37930
+hostname: wangyideMacBook-Pro.local
+
