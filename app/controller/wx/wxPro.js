@@ -54,15 +54,22 @@ class TestWx extends Controller {
     const {Content, ToUserName, FromUserName, MsgType} = json.xml;
     const xmlData = {
       xml: {
-        ToUserName: `<![CDATA[${ToUserName}]]>`,
+        // ToUserName: `<![CDATA[${ToUserName}]]>`,
         FromUserName: `<![CDATA[${FromUserName}]]>`,
         CreateTime: parseInt(new Date().getTime() / 1000),
         MsgType: '<![CDATA[text]]>',
         Content: `<![CDATA[${Content + '(测试)'}]]`,
       }
     };
+    const xml = '<xml>'
+        + '<ToUserName><![CDATA['+ ToUserName + ']]></ToUserName>' +
+        + '<FromUserName><![CDATA[ '+ FromUserName +' ]]></FromUserName>' +
+        + '<CreateTime>' + parseInt(new Date().getTime() / 1000) + '</CreateTime>' +
+        + '<MsgType><![CDATA[ ' + MsgType + ' ]]></MsgType>' +
+        + '<Content><![CDATA[ '+ Content + '(测试)' +' ]]></Content>' +
+      '</xml>';
     const builder = new xml2js.Builder();
-    ctx.body = builder.buildObject(xmlData);
+    ctx.body = xml;
   }
 
 }
