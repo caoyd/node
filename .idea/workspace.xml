@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c9120be-a1b0-447a-977f-1911de7da870" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controller/wx/payment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controller/zfb/payment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/alipay/private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/alipay/public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/service/alipay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controller/wx/wxPro.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/wx/wxPro.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/router/h5.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/h5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.default.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cloud-server/cloud-server-web.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cloud-server/cloud-server-web.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cloud-server/common-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cloud-server/common-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/cloud-server/egg-agent.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cloud-server/egg-agent.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/cloud-server/egg-schedule.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cloud-server/egg-schedule.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/cloud-server/egg-web.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cloud-server/egg-web.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/agent_timing_37629.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/application_timing_37630.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/agent_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/agent_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/agent_config_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/agent_config_meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/agent_timing_37944.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/application_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/application_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/application_config_meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/application_config_meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/application_timing_37946.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/router.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/router.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,17 +40,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/router/h5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+            <state relative-caret-position="562">
+              <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/router/manager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/router/frontend.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/router/backend.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/router/iot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-634" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controller/wx/wxPro.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+            <state relative-caret-position="207">
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/zfb/payment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/wx/payment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -50,16 +112,27 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2016092800615107</find>
+      <find>alipay.trade.pay</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/config.default.js" />
         <option value="$PROJECT_DIR$/app/middleware/xmlparse.js" />
-        <option value="$PROJECT_DIR$/app/router/h5.js" />
         <option value="$PROJECT_DIR$/app/controller/wx/wxPro.js" />
+        <option value="$PROJECT_DIR$/app/controller/wx/payment.js" />
+        <option value="$PROJECT_DIR$/app/lib/alipay/public-key.pem" />
+        <option value="$PROJECT_DIR$/app/lib/alipay/private_key.pem" />
+        <option value="$PROJECT_DIR$/app/controller/zfb/payment.js" />
+        <option value="$PROJECT_DIR$/config/config.default.js" />
+        <option value="$PROJECT_DIR$/app/router/h5.js" />
+        <option value="$PROJECT_DIR$/app/service/alipay.js" />
       </list>
     </option>
   </component>
@@ -75,7 +148,6 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="138" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -85,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,11 +165,58 @@
               <item name="wx" type="b2602c69:ProjectViewProjectNode" />
               <item name="wx" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="zfb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -121,6 +241,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/service" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -144,12 +269,15 @@
       <option name="presentableId" value="Default" />
       <updated>1552908429291</updated>
       <workItem from="1552908430579" duration="4823000" />
-      <workItem from="1552961625695" duration="3114000" />
+      <workItem from="1552961625695" duration="15427000" />
+      <workItem from="1553064084354" duration="18000" />
+      <workItem from="1553066749118" duration="1406000" />
+      <workItem from="1553514446326" duration="292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7937000" />
+    <option name="totallyTimeSpent" value="21966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -161,10 +289,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -178,7 +306,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -186,6 +314,22 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/alipay-sdk/lib/alipay.js</url>
+          <line>73</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/alipay-sdk/lib/alipay.js</url>
+          <line>131</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/controller/iot/backflow.js">
@@ -200,13 +344,6 @@
         <state relative-caret-position="-274" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/router/backend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/middleware/xmlparse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -214,24 +351,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/top/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/top/lib/spiUtil.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/top/lib/topUtil.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/iot/Constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-795" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/rsa_private_key_pkcs8.pem" />
+    <entry file="file://$PROJECT_DIR$/app/service/rsa_public_key.pem" />
+    <entry file="file://$USER_HOME$/Downloads/secret_key_tools_RSA256_macosx/rsa_private_key.pem" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/10.15.0/core-modules/fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="341" column="6" lean-forward="true" selection-start-line="341" selection-start-column="6" selection-end-line="341" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/alipay/public_key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="364" selection-start-column="364" selection-end-column="364" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/alipay-sdk/lib/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.core.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="285" column="4" selection-start-line="285" selection-start-column="4" selection-end-line="285" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/alipay/private_key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1519" lean-forward="true" selection-start-column="1519" selection-end-column="1519" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/alipay-sdk/lib/alipay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!block;n#formatKey#0;n#AlipaySdk#0" />
+            <element signature="n#!!block;n#formatUrl#0;n#AlipaySdk#0" />
+            <element signature="n#!!block;n#multipartExec#0;n#AlipaySdk#0" />
+            <element signature="n#!!block;n#pageExec#0;n#AlipaySdk#0" />
+            <element signature="n#!!block;n#getSignStr#0;n#AlipaySdk#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/config.default.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1633">
-          <caret line="71" column="15" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
+        <state relative-caret-position="58">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/alipay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/zfb/payment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/wx/payment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router/manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router/frontend.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router/backend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router/iot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/router/h5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        <state relative-caret-position="562">
+          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/wx/wxPro.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+        <state relative-caret-position="207">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>

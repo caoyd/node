@@ -253,3 +253,154 @@
 2019-03-19 11:25:22,339 INFO 37946 [egg:core] dump config after load, 4ms
 2019-03-19 11:25:22,355 INFO 37946 [egg-watcher:application] watcher start success
 2019-03-19 11:25:22,363 INFO 37946 [egg:core] dump config after ready, 6ms
+2019-03-19 11:38:51,816 INFO 38008 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-19 11:38:51,853 INFO 38008 [egg-multipart] stream mode enable
+2019-03-19 11:38:52,467 INFO 38008 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-19 11:38:52,468 INFO 38008 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-19 11:38:52,469 INFO 38008 [egg-security] use methodnoallow middleware
+2019-03-19 11:38:52,470 INFO 38008 [egg-security] use noopen middleware
+2019-03-19 11:38:52,471 INFO 38008 [egg-security] use nosniff middleware
+2019-03-19 11:38:52,472 INFO 38008 [egg-security] use xssProtection middleware
+2019-03-19 11:38:52,473 INFO 38008 [egg-security] use xframe middleware
+2019-03-19 11:38:52,474 INFO 38008 [egg-security] use dta middleware
+2019-03-19 11:38:52,474 INFO 38008 [egg-security] compose 6 middlewares into one security middleware
+2019-03-19 11:38:52,549 INFO 38008 [egg:core] dump config after load, 4ms
+2019-03-19 11:38:52,566 INFO 38008 [egg-watcher:application] watcher start success
+2019-03-19 11:38:52,572 INFO 38008 [egg:core] dump config after ready, 4ms
+2019-03-19 11:39:25,895 INFO 38022 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-19 11:39:25,932 INFO 38022 [egg-multipart] stream mode enable
+2019-03-19 11:39:26,505 INFO 38022 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-19 11:39:26,506 INFO 38022 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-19 11:39:26,508 INFO 38022 [egg-security] use methodnoallow middleware
+2019-03-19 11:39:26,509 INFO 38022 [egg-security] use noopen middleware
+2019-03-19 11:39:26,509 INFO 38022 [egg-security] use nosniff middleware
+2019-03-19 11:39:26,510 INFO 38022 [egg-security] use xssProtection middleware
+2019-03-19 11:39:26,511 INFO 38022 [egg-security] use xframe middleware
+2019-03-19 11:39:26,511 INFO 38022 [egg-security] use dta middleware
+2019-03-19 11:39:26,511 INFO 38022 [egg-security] compose 6 middlewares into one security middleware
+2019-03-19 11:39:26,587 INFO 38022 [egg:core] dump config after load, 6ms
+2019-03-19 11:39:26,609 INFO 38022 [egg-watcher:application] watcher start success
+2019-03-19 11:39:26,615 INFO 38022 [egg:core] dump config after ready, 4ms
+2019-03-19 21:01:28,697 WARN 38022 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-20 00:56:48,318 WARN 38022 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-20 00:56:48,329 WARN 38022 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-20 02:57:07,912 WARN 38022 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-03-20 02:57:07,920 WARN 38022 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-20 04:57:28,595 WARN 38022 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-20 06:57:49,249 WARN 38022 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-20 08:30:10,868 WARN 38022 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-20 09:40:46,071 WARN 38022 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-03-20 11:52:23,701 INFO 39568 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-20 11:52:23,728 INFO 39568 [egg-multipart] stream mode enable
+2019-03-20 11:52:24,042 INFO 39568 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-20 11:52:24,043 INFO 39568 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-20 11:52:24,045 INFO 39568 [egg-security] use methodnoallow middleware
+2019-03-20 11:52:24,045 INFO 39568 [egg-security] use noopen middleware
+2019-03-20 11:52:24,046 INFO 39568 [egg-security] use nosniff middleware
+2019-03-20 11:52:24,047 INFO 39568 [egg-security] use xssProtection middleware
+2019-03-20 11:52:24,048 INFO 39568 [egg-security] use xframe middleware
+2019-03-20 11:52:24,048 INFO 39568 [egg-security] use dta middleware
+2019-03-20 11:52:24,048 INFO 39568 [egg-security] compose 6 middlewares into one security middleware
+2019-03-20 11:52:24,131 INFO 39568 [egg:core] dump config after load, 6ms
+2019-03-20 11:52:24,152 INFO 39568 [egg-watcher:application] watcher start success
+2019-03-20 11:52:24,164 INFO 39568 [egg:core] dump config after ready, 5ms
+2019-03-20 11:52:32,843 INFO 39568 [egg-view-nunjucks] loading templates from ["/Users/wangyi/node/yoo/wx/app/view"]
+2019-03-20 11:53:58,258 INFO 39596 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-20 11:53:58,299 INFO 39596 [egg-multipart] stream mode enable
+2019-03-20 11:53:58,900 INFO 39596 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-20 11:53:58,901 INFO 39596 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-20 11:53:58,903 INFO 39596 [egg-security] use methodnoallow middleware
+2019-03-20 11:53:58,904 INFO 39596 [egg-security] use noopen middleware
+2019-03-20 11:53:58,905 INFO 39596 [egg-security] use nosniff middleware
+2019-03-20 11:53:58,905 INFO 39596 [egg-security] use xssProtection middleware
+2019-03-20 11:53:58,906 INFO 39596 [egg-security] use xframe middleware
+2019-03-20 11:53:58,907 INFO 39596 [egg-security] use dta middleware
+2019-03-20 11:53:58,907 INFO 39596 [egg-security] compose 6 middlewares into one security middleware
+2019-03-20 11:53:58,977 INFO 39596 [egg:core] dump config after load, 6ms
+2019-03-20 11:53:58,997 INFO 39596 [egg-watcher:application] watcher start success
+2019-03-20 11:53:59,005 INFO 39596 [egg:core] dump config after ready, 6ms
+2019-03-20 11:54:21,557 INFO 39608 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-20 11:54:21,586 INFO 39608 [egg-multipart] stream mode enable
+2019-03-20 11:54:21,860 INFO 39608 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-20 11:54:21,861 INFO 39608 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-20 11:54:21,862 INFO 39608 [egg-security] use methodnoallow middleware
+2019-03-20 11:54:21,862 INFO 39608 [egg-security] use noopen middleware
+2019-03-20 11:54:21,863 INFO 39608 [egg-security] use nosniff middleware
+2019-03-20 11:54:21,863 INFO 39608 [egg-security] use xssProtection middleware
+2019-03-20 11:54:21,863 INFO 39608 [egg-security] use xframe middleware
+2019-03-20 11:54:21,863 INFO 39608 [egg-security] use dta middleware
+2019-03-20 11:54:21,863 INFO 39608 [egg-security] compose 6 middlewares into one security middleware
+2019-03-20 11:54:21,901 INFO 39608 [egg:core] dump config after load, 4ms
+2019-03-20 11:54:21,916 INFO 39608 [egg-watcher:application] watcher start success
+2019-03-20 11:54:21,923 INFO 39608 [egg:core] dump config after ready, 5ms
+2019-03-20 11:55:01,693 INFO 39625 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-20 11:55:01,734 INFO 39625 [egg-multipart] stream mode enable
+2019-03-20 11:55:02,051 INFO 39625 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-20 11:55:02,052 INFO 39625 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-20 11:55:02,053 INFO 39625 [egg-security] use methodnoallow middleware
+2019-03-20 11:55:02,055 INFO 39625 [egg-security] use noopen middleware
+2019-03-20 11:55:02,056 INFO 39625 [egg-security] use nosniff middleware
+2019-03-20 11:55:02,056 INFO 39625 [egg-security] use xssProtection middleware
+2019-03-20 11:55:02,056 INFO 39625 [egg-security] use xframe middleware
+2019-03-20 11:55:02,057 INFO 39625 [egg-security] use dta middleware
+2019-03-20 11:55:02,057 INFO 39625 [egg-security] compose 6 middlewares into one security middleware
+2019-03-20 11:55:02,093 INFO 39625 [egg:core] dump config after load, 4ms
+2019-03-20 11:55:02,108 INFO 39625 [egg-watcher:application] watcher start success
+2019-03-20 11:55:02,116 INFO 39625 [egg:core] dump config after ready, 5ms
+2019-03-20 11:55:17,317 INFO 39642 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-20 11:55:17,345 INFO 39642 [egg-multipart] stream mode enable
+2019-03-20 11:55:17,639 INFO 39642 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-20 11:55:17,639 INFO 39642 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-20 11:55:17,640 INFO 39642 [egg-security] use methodnoallow middleware
+2019-03-20 11:55:17,641 INFO 39642 [egg-security] use noopen middleware
+2019-03-20 11:55:17,641 INFO 39642 [egg-security] use nosniff middleware
+2019-03-20 11:55:17,641 INFO 39642 [egg-security] use xssProtection middleware
+2019-03-20 11:55:17,641 INFO 39642 [egg-security] use xframe middleware
+2019-03-20 11:55:17,642 INFO 39642 [egg-security] use dta middleware
+2019-03-20 11:55:17,642 INFO 39642 [egg-security] compose 6 middlewares into one security middleware
+2019-03-20 11:55:17,678 INFO 39642 [egg:core] dump config after load, 4ms
+2019-03-20 11:55:17,695 INFO 39642 [egg-watcher:application] watcher start success
+2019-03-20 11:55:17,705 INFO 39642 [egg:core] dump config after ready, 8ms
+2019-03-20 11:55:50,991 INFO 39642 [egg-view-nunjucks] loading templates from ["/Users/wangyi/node/yoo/wx/app/view"]
+2019-03-20 11:57:03,393 INFO 39658 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-20 11:57:03,429 INFO 39658 [egg-multipart] stream mode enable
+2019-03-20 11:57:04,003 INFO 39658 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-20 11:57:04,004 INFO 39658 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-20 11:57:04,007 INFO 39658 [egg-security] use methodnoallow middleware
+2019-03-20 11:57:04,008 INFO 39658 [egg-security] use noopen middleware
+2019-03-20 11:57:04,009 INFO 39658 [egg-security] use nosniff middleware
+2019-03-20 11:57:04,009 INFO 39658 [egg-security] use xssProtection middleware
+2019-03-20 11:57:04,010 INFO 39658 [egg-security] use xframe middleware
+2019-03-20 11:57:04,010 INFO 39658 [egg-security] use dta middleware
+2019-03-20 11:57:04,010 INFO 39658 [egg-security] compose 6 middlewares into one security middleware
+2019-03-20 11:57:04,083 INFO 39658 [egg:core] dump config after load, 4ms
+2019-03-20 11:57:04,099 INFO 39658 [egg-watcher:application] watcher start success
+2019-03-20 11:57:04,105 INFO 39658 [egg:core] dump config after ready, 4ms
+2019-03-20 11:58:02,806 INFO 39672 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-20 11:58:02,846 INFO 39672 [egg-multipart] stream mode enable
+2019-03-20 11:58:03,409 INFO 39672 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-20 11:58:03,409 INFO 39672 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-20 11:58:03,412 INFO 39672 [egg-security] use methodnoallow middleware
+2019-03-20 11:58:03,413 INFO 39672 [egg-security] use noopen middleware
+2019-03-20 11:58:03,413 INFO 39672 [egg-security] use nosniff middleware
+2019-03-20 11:58:03,414 INFO 39672 [egg-security] use xssProtection middleware
+2019-03-20 11:58:03,414 INFO 39672 [egg-security] use xframe middleware
+2019-03-20 11:58:03,415 INFO 39672 [egg-security] use dta middleware
+2019-03-20 11:58:03,415 INFO 39672 [egg-security] compose 6 middlewares into one security middleware
+2019-03-20 11:58:03,482 INFO 39672 [egg:core] dump config after load, 6ms
+2019-03-20 11:58:03,502 INFO 39672 [egg-watcher:application] watcher start success
+2019-03-20 11:58:03,511 INFO 39672 [egg:core] dump config after ready, 6ms
+2019-03-25 19:55:33,275 INFO 48689 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-25 19:55:33,312 INFO 48689 [egg-multipart] stream mode enable
+2019-03-25 19:55:33,965 INFO 48689 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/upload
+2019-03-25 19:55:33,965 INFO 48689 [egg-static] starting static serve /public/ -> /Users/wangyi/node/yoo/wx/app/public
+2019-03-25 19:55:33,968 INFO 48689 [egg-security] use methodnoallow middleware
+2019-03-25 19:55:33,969 INFO 48689 [egg-security] use noopen middleware
+2019-03-25 19:55:33,970 INFO 48689 [egg-security] use nosniff middleware
+2019-03-25 19:55:33,970 INFO 48689 [egg-security] use xssProtection middleware
+2019-03-25 19:55:33,971 INFO 48689 [egg-security] use xframe middleware
+2019-03-25 19:55:33,972 INFO 48689 [egg-security] use dta middleware
+2019-03-25 19:55:33,972 INFO 48689 [egg-security] compose 6 middlewares into one security middleware
+2019-03-25 19:55:34,059 INFO 48689 [egg:core] dump config after load, 5ms
+2019-03-25 19:55:34,077 INFO 48689 [egg-watcher:application] watcher start success
+2019-03-25 19:55:34,084 INFO 48689 [egg:core] dump config after ready, 5ms

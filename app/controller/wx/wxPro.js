@@ -39,7 +39,7 @@ class TestWx extends Controller {
   async test2() {
     const {ctx} = this;
     let data = '';
-    ctx.set('Content-Type', 'application/xml');
+    ctx.set('Content-Type', 'text/html');
     ctx.req.setEncoding('utf8');
     ctx.req.on('data',function(chunk) {
       data += chunk;
@@ -54,7 +54,7 @@ class TestWx extends Controller {
     const {Content, ToUserName, FromUserName, MsgType} = json.xml;
     const xmlData = {
       xml: {
-        // ToUserName: `<![CDATA[${ToUserName}]]>`,
+        ToUserName: `<![CDATA[${ToUserName}]]>`,
         FromUserName: `<![CDATA[${FromUserName}]]>`,
         CreateTime: parseInt(new Date().getTime() / 1000),
         MsgType: '<![CDATA[text]]>',
@@ -74,7 +74,7 @@ class TestWx extends Controller {
 
   async test3() {
     const {ctx} = this;
-    ctx.set('Content-Type', 'application/xml');
+    ctx.set('Content-Type', 'text/xml');
     const ToUserName = 'test';
     const xml = `<xml>
       <ToUserName><![CDATA[ToUserName]]></ToUserName>

@@ -15,7 +15,7 @@ module.exports = app => {
   // router.get('/homefair/award', controller.h5.homefair.awardPrizes); // 核销
   // router.get('/homefair/cart', controller.h5.homefair.cart); // 加购
   // router.get('/homefair/follow', controller.h5.homefair.follow); // 关注
-
+  router.get('/zfb/pay', controller.zfb.payment.pay);
 
   router.get('/volvo/info', controller.h5.volvo.getInfo); // 获取用户信息
   router.get('/volvo/assistance/get', controller.h5.volvo.assistanceInfo); // 获取好友的助力次数
@@ -34,5 +34,7 @@ module.exports = app => {
   router.get('/wx/test', controller.wx.wxPro.test1);
   router.post('/wx/test', xmlparse(), controller.wx.wxPro.test2);
   router.get('/wx/test2', controller.wx.wxPro.test3);
+
+
 
 };

@@ -221,6 +221,7 @@
     "author": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
     "license": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
     "dependencies": {
+      "alipay-sdk": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
       "await-stream-ready": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
       "axios": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",
       "body-parser": "/Users/wangyi/node/yoo/wx/node_modules/egg/config/config.default.js",

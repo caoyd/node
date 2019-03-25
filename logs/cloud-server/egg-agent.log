@@ -508,3 +508,193 @@ hostname: wangyideMacBook-Pro.local
 2019-03-19 11:25:21,307 INFO 37944 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
 2019-03-19 11:25:21,307 INFO 37944 [egg-watcher:agent] watcher start success
 2019-03-19 11:25:21,317 INFO 37944 [egg:core] dump config after ready, 4ms
+2019-03-19 11:38:50,834 INFO 38007 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-19 11:38:50,996 INFO 38007 [egg:core] dump config after load, 5ms
+2019-03-19 11:38:51,045 INFO 38007 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-19 11:38:51,045 INFO 38007 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-19 11:38:51,045 INFO 38007 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-19 11:38:51,045 INFO 38007 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-19 11:38:51,045 INFO 38007 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-19 11:38:51,045 INFO 38007 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-19 11:38:51,045 INFO 38007 [egg-watcher:agent] watcher start success
+2019-03-19 11:38:51,055 INFO 38007 [egg:core] dump config after ready, 4ms
+2019-03-19 11:39:25,060 INFO 38021 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-19 11:39:25,182 INFO 38021 [egg:core] dump config after load, 4ms
+2019-03-19 11:39:25,226 INFO 38021 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-19 11:39:25,226 INFO 38021 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-19 11:39:25,226 INFO 38021 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-19 11:39:25,226 INFO 38021 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-19 11:39:25,226 INFO 38021 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-19 11:39:25,226 INFO 38021 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-19 11:39:25,226 INFO 38021 [egg-watcher:agent] watcher start success
+2019-03-19 11:39:25,237 INFO 38021 [egg:core] dump config after ready, 4ms
+2019-03-19 21:01:28,675 ERROR 38021 nodejs.ClusterClientNoResponseError: client no response in 301593ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 38021
+hostname: wangyideMacBook-Pro.local
+
+2019-03-20 00:56:48,269 ERROR 38021 nodejs.ClusterClientNoResponseError: client no response in 7212603ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 38021
+hostname: wangyideMacBook-Pro.local
+
+2019-03-20 02:57:07,916 ERROR 38021 nodejs.ClusterClientNoResponseError: client no response in 7219353ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 38021
+hostname: wangyideMacBook-Pro.local
+
+2019-03-20 04:57:28,598 ERROR 38021 nodejs.ClusterClientNoResponseError: client no response in 7220625ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 38021
+hostname: wangyideMacBook-Pro.local
+
+2019-03-20 06:57:49,248 ERROR 38021 nodejs.ClusterClientNoResponseError: client no response in 7220635ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 38021
+hostname: wangyideMacBook-Pro.local
+
+2019-03-20 08:30:10,866 ERROR 38021 nodejs.ClusterClientNoResponseError: client no response in 5541598ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 38021
+hostname: wangyideMacBook-Pro.local
+
+2019-03-20 09:40:46,071 ERROR 38021 nodejs.ClusterClientNoResponseError: client no response in 4235195ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wangyi/node/yoo/wx/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 38021
+hostname: wangyideMacBook-Pro.local
+
+2019-03-20 11:50:35,615 INFO 39545 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-20 11:50:35,823 INFO 39545 [egg:core] dump config after load, 5ms
+2019-03-20 11:50:35,872 INFO 39545 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-20 11:50:35,872 INFO 39545 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-20 11:50:35,872 INFO 39545 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-20 11:50:35,872 INFO 39545 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-20 11:50:35,873 INFO 39545 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-20 11:50:35,873 INFO 39545 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-20 11:50:35,873 INFO 39545 [egg-watcher:agent] watcher start success
+2019-03-20 11:50:35,885 INFO 39545 [egg:core] dump config after ready, 4ms
+2019-03-20 11:51:46,632 INFO 39555 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-20 11:51:46,712 INFO 39555 [egg:core] dump config after load, 3ms
+2019-03-20 11:51:46,739 INFO 39555 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-20 11:51:46,739 INFO 39555 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-20 11:51:46,740 INFO 39555 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-20 11:51:46,740 INFO 39555 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-20 11:51:46,740 INFO 39555 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-20 11:51:46,740 INFO 39555 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-20 11:51:46,740 INFO 39555 [egg-watcher:agent] watcher start success
+2019-03-20 11:51:46,749 INFO 39555 [egg:core] dump config after ready, 4ms
+2019-03-20 11:52:23,102 INFO 39567 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-20 11:52:23,182 INFO 39567 [egg:core] dump config after load, 3ms
+2019-03-20 11:52:23,209 INFO 39567 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-20 11:52:23,209 INFO 39567 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-20 11:52:23,209 INFO 39567 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-20 11:52:23,209 INFO 39567 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-20 11:52:23,209 INFO 39567 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-20 11:52:23,209 INFO 39567 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-20 11:52:23,209 INFO 39567 [egg-watcher:agent] watcher start success
+2019-03-20 11:52:23,216 INFO 39567 [egg:core] dump config after ready, 3ms
+2019-03-20 11:53:57,344 INFO 39594 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-20 11:53:57,509 INFO 39594 [egg:core] dump config after load, 4ms
+2019-03-20 11:53:57,555 INFO 39594 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-20 11:53:57,555 INFO 39594 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-20 11:53:57,556 INFO 39594 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-20 11:53:57,556 INFO 39594 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-20 11:53:57,556 INFO 39594 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-20 11:53:57,556 INFO 39594 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-20 11:53:57,556 INFO 39594 [egg-watcher:agent] watcher start success
+2019-03-20 11:53:57,565 INFO 39594 [egg:core] dump config after ready, 4ms
+2019-03-20 11:54:20,803 INFO 39607 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-20 11:54:20,902 INFO 39607 [egg:core] dump config after load, 4ms
+2019-03-20 11:54:20,937 INFO 39607 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-20 11:54:20,937 INFO 39607 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-20 11:54:20,937 INFO 39607 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-20 11:54:20,937 INFO 39607 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-20 11:54:20,937 INFO 39607 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-20 11:54:20,937 INFO 39607 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-20 11:54:20,937 INFO 39607 [egg-watcher:agent] watcher start success
+2019-03-20 11:54:20,947 INFO 39607 [egg:core] dump config after ready, 5ms
+2019-03-20 11:55:00,994 INFO 39624 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-20 11:55:01,093 INFO 39624 [egg:core] dump config after load, 4ms
+2019-03-20 11:55:01,126 INFO 39624 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-20 11:55:01,126 INFO 39624 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-20 11:55:01,126 INFO 39624 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-20 11:55:01,126 INFO 39624 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-20 11:55:01,126 INFO 39624 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-20 11:55:01,126 INFO 39624 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-20 11:55:01,126 INFO 39624 [egg-watcher:agent] watcher start success
+2019-03-20 11:55:01,135 INFO 39624 [egg:core] dump config after ready, 4ms
+2019-03-20 11:55:16,567 INFO 39641 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-20 11:55:16,658 INFO 39641 [egg:core] dump config after load, 3ms
+2019-03-20 11:55:16,686 INFO 39641 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-20 11:55:16,686 INFO 39641 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-20 11:55:16,686 INFO 39641 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-20 11:55:16,686 INFO 39641 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-20 11:55:16,686 INFO 39641 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-20 11:55:16,686 INFO 39641 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-20 11:55:16,686 INFO 39641 [egg-watcher:agent] watcher start success
+2019-03-20 11:55:16,694 INFO 39641 [egg:core] dump config after ready, 4ms
+2019-03-20 11:57:02,526 INFO 39656 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-20 11:57:02,686 INFO 39656 [egg:core] dump config after load, 4ms
+2019-03-20 11:57:02,735 INFO 39656 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-20 11:57:02,735 INFO 39656 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-20 11:57:02,736 INFO 39656 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-20 11:57:02,736 INFO 39656 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-20 11:57:02,736 INFO 39656 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-20 11:57:02,736 INFO 39656 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-20 11:57:02,736 INFO 39656 [egg-watcher:agent] watcher start success
+2019-03-20 11:57:02,746 INFO 39656 [egg:core] dump config after ready, 4ms
+2019-03-20 11:58:01,998 INFO 39671 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-20 11:58:02,112 INFO 39671 [egg:core] dump config after load, 4ms
+2019-03-20 11:58:02,150 INFO 39671 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-20 11:58:02,150 INFO 39671 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-20 11:58:02,151 INFO 39671 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-20 11:58:02,151 INFO 39671 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-20 11:58:02,151 INFO 39671 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-20 11:58:02,151 INFO 39671 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-20 11:58:02,151 INFO 39671 [egg-watcher:agent] watcher start success
+2019-03-20 11:58:02,160 INFO 39671 [egg:core] dump config after ready, 4ms
+2019-03-25 19:55:32,250 INFO 48688 [egg:logger] init all loggers with options: {"dir":"/Users/wangyi/node/yoo/wx/logs/cloud-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"cloud-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-03-25 19:55:32,435 INFO 48688 [egg:core] dump config after load, 7ms
+2019-03-25 19:55:32,485 INFO 48688 [egg-watcher] Start watching: ["/Users/wangyi/node/yoo/wx/upload/app","/Users/wangyi/node/yoo/wx/upload/config","/Users/wangyi/node/yoo/wx/upload/mocks","/Users/wangyi/node/yoo/wx/upload/mocks_proxy","/Users/wangyi/node/yoo/wx/upload/app.js"]
+2019-03-25 19:55:32,485 INFO 48688 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app"
+2019-03-25 19:55:32,486 INFO 48688 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/config"
+2019-03-25 19:55:32,486 INFO 48688 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks"
+2019-03-25 19:55:32,486 INFO 48688 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/mocks_proxy"
+2019-03-25 19:55:32,486 INFO 48688 [egg-watcher] Start watching: "/Users/wangyi/node/yoo/wx/upload/app.js"
+2019-03-25 19:55:32,486 INFO 48688 [egg-watcher:agent] watcher start success
+2019-03-25 19:55:32,497 INFO 48688 [egg:core] dump config after ready, 5ms

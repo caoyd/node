@@ -827,6 +827,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/zfb/pay",
+    "regexp": "/^\\/zfb\\/pay(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/volvo/info",
     "regexp": "/^\\/volvo\\/info(?:\\/(?=$))?$/",
     "stack": [

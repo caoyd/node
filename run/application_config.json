@@ -217,6 +217,7 @@
       "author": "",
       "license": "ISC",
       "dependencies": {
+        "alipay-sdk": "^3.0.4",
         "await-stream-ready": "^1.0.1",
         "axios": "^0.18.0",
         "body-parser": "^1.18.3",
@@ -330,7 +331,7 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 80,
+        "port": 5000,
         "hostname": ""
       }
     },
